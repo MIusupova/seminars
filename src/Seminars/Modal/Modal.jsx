@@ -21,7 +21,7 @@ const Modal = ({ setSeminars, setDeleteSeminarId, deleteSeminarId }) => {
 
   return (
     <div className={styles.modal}>
-      <div className={styles.xxx} onClick={() => setDeleteSeminarId(null)}>X</div>
+      <div className={styles.close} onClick={() => setDeleteSeminarId(null)}>X</div>
       <div className={styles.btn}>
         <button onClick={deleteSeminar}>DELETE</button> 
         <button >Редактировать</button> 
